@@ -53,23 +53,62 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
-            <div className="work-box" key={index}>
-              <div className="work-info">
-                <div className="work-title">
-                  <h3>0{index + 1}</h3>
-
-                  <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
-                  </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>01</h3>
+                <div>
+                  <h4>Short-form Content</h4>
+                  <p>Video Editing</p>
                 </div>
-                <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <h4>Tools and features</h4>
+              <p>Clean cuts, Pacing, Captions, Transitions, Sound Effects</p>
             </div>
-          ))}
+            <WorkImage image="/images/shortform.webp" alt="Short-form Content" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>02</h3>
+                <div>
+                  <h4>Talking Head Videos</h4>
+                  <p>Video Editing</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>Jump Cuts, B-roll, Text Elements, Music, Sound Effects</p>
+            </div>
+            <WorkImage image="/images/talkinghead.webp" alt="Talking Head Videos" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>03</h3>
+                <div>
+                  <h4>Advertisement Videos</h4>
+                  <p>Video Editing</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>Typography, Music, Sound Effects, Pacing, Visual Presentation</p>
+            </div>
+            <WorkImage image="/images/advertisement.webp" alt="Advertisement Videos" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>04</h3>
+                <div>
+                  <h4>Motion Graphics</h4>
+                  <p>After Effects</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>Text Animation, Shape Animation, Transitions, Motion Design</p>
+            </div>
+            <WorkImage image="/images/motiongraphics.webp" alt="Motion Graphics" />
+          </div>
         </div>
       </div>
     </div>

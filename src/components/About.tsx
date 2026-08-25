@@ -6,9 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          Video Editor and Motion Graphics Designer with a background in Animation &
+          Multimedia. Skilled in creating short-form content, talking-head videos, advertisements
+          and motion graphics. Experienced with Adobe After Effects and familiar
+          with Adobe Premiere Pro, with a focus on clean editing, good pacing, visual
+          storytelling and engaging visuals.
         </p>
       </div>
     </div>
