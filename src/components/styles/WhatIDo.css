@@ -34,7 +34,7 @@
 }
 .what-box-in {
   flex-direction: column;
-  height: 500px;
+  height: 550px;
   margin-left: 200px;
   position: relative;
   display: none;
@@ -53,7 +53,7 @@
 .what-noTouch:hover,
 .what-content-active {
   min-height: 67%;
-  padding: 40px 50px;
+  padding: 30px 50px;
 }
 
 .what-noTouch:hover ~ .what-content,
@@ -199,7 +199,7 @@
   animation: whatBorders 1.2s 1 forwards;
 }
 .what-border2 svg {
-  height: 500px;
+  height: 550px;
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
