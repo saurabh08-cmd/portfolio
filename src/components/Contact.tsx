@@ -23,14 +23,7 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h4>Social</h4>
-            <a
-              href="https://www.linkedin.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Linkedin <MdArrowOutward />
-            </a>
+
             <a
               href="https://www.instagram.com"
               target="_blank"
